@@ -42,6 +42,22 @@ WHERE Manufacturer = 'Samsung';***
 ![Alt text](task_4.2.png)
 
 
+- 4.3. Товары, в которых есть цифры.
+
+***SELECT * FROM mobilephone
+WHERE ProductName REGEXP '[0-9]';***
+
+![Alt text](task_4.3.png)
+
+- 4.4. Товары, в которых есть ЦИФРА "8".
+
+***SELECT * FROM mobilephone
+WHERE ProductName LIKE '%8%';***
+
+![Alt text](task_4.4.png)
+
+
+
 
 
 
