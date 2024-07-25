@@ -2,7 +2,7 @@
 
 1. Создайте таблицу с мобильными телефонами, используя графический интерфейс. Заполните БД данными.
 
-**SELECT * FROM homework_1.mobilephone;**
+***SELECT * FROM homework_1.mobilephone;***
 
 ![Alt text](task_1.png)
 
