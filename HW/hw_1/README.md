@@ -13,6 +13,9 @@
 **SELECT ProductName, Manufacturer, Price FROM mobilephone
 WHERE ProductCount > 2;**
 
+![Alt text](task_2.png)
+
+
 
 
 
