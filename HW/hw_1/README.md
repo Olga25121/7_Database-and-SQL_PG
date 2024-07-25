@@ -6,7 +6,10 @@
 
 2. Выведите название, производителя и цену для товаров, количество которых превышает 2.
 
-![Alt text](task_2.png)
+**USE homework_1;**
+
+**SELECT ProductName, Manufacturer, Price FROM mobilephone
+WHERE ProductCount > 2;**
 
 
 
