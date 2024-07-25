@@ -1,10 +1,13 @@
 ![Alt text](auto_1.png)
 
--- удаляем таблицу с мобильными телефонами `mobile_phones`, если она существует
+
+**Решение:**
+
+--1. удаляем таблицу с мобильными телефонами `mobile_phones`, если она существует
 
 DROP TABLE IF EXISTS {schema_name}.mobile_phones;
 
--- создаём таблицу с мобильными телефонами (mobile_phones)
+--2. создаём таблицу с мобильными телефонами (mobile_phones)
 
 CREATE TABLE {schema_name}.mobile_phones (
 
@@ -15,7 +18,7 @@ CREATE TABLE {schema_name}.mobile_phones (
     price BIGINT
 );
 
--- наполнение данными
+--3. наполнение данными
 
 INSERT INTO {schema_name}.mobile_phones (product_name, manufacturer, product_count, price)
 
