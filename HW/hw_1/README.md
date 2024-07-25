@@ -25,7 +25,26 @@ WHERE Manufacturer = "Samsung";***
 ![Alt text](task_3.png)
 
 
-4. 
+4*. С помощью регулярных выражений найти:
+
+- 4.1. Товары, в которых есть упоминание 'Iphone'.
+
+***SELECT * FROM mobilephone
+WHERE ProductName LIKE '%Iphone%';***
+
+![Alt text](task_4.1.png)
+
+- 4.2. Товары, в которых есть упоминание 'Samsung'.
+
+***SELECT * FROM mobilephone
+WHERE Manufacturer = 'Samsung';***
+
+![Alt text](task_4.2.png)
+
+
+
+
+
 
 
 
