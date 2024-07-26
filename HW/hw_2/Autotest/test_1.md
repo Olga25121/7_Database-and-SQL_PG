@@ -32,3 +32,5 @@ SELECT DISTINCT manufacturer
 FROM mobile_phones;
 
 SELECT * FROM itresume8002721.manufacturer;
+
+![Alt text](res_1.png)
